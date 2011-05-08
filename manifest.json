@@ -12,6 +12,10 @@
     {
       "matches": ["http://www.thesixtyone.com/*"],
       "js": ["t61.js"]
+    },
+    {
+      "matches": ["https://www.amazon.com/gp/dmusic/mp3/player*"],
+      "js":      ["jquery.js", "cloud_player.js"]
     }
   ],
 	"background_page": "dispatch.html",
